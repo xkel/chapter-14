@@ -43,3 +43,7 @@ def movingRectangle2(directory):
 			writePictureTo(canvas,directory+"//frame0"+numStr+".jpg")
 		if num >= 10:
 			writePictureTo(canvas,directory+"//frame"+numStr+".jpg")
+
+def moveHead(directory):
+	mark = makePicture("blue-mark.jpg")
+	head = clip(mark,275,160,385,306)
